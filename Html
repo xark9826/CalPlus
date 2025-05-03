@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Screen Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator-container" id="calculator-container">
+        <!-- Calculators will be inserted here -->
+        <button class="add-calculator" id="add-calculator" title="Add new calculator">+</button>
+    </div>
+    
+    <div class="operation-popup" id="operation-popup">
+        <div class="popup-content">
+            <button class="popup-btn" data-op="+">+</button>
+            <button class="popup-btn" data-op="-">-</button>
+            <button class="popup-btn" data-op="×">×</button>
+            <button class="popup-btn" data-op="÷">÷</button>
+            <button class="popup-btn" data-op="%">%</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
